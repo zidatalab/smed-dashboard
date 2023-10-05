@@ -28,7 +28,6 @@ import { PlotContainerComponent } from './components/plot-container/plot-contain
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { KeyDataContainerComponent } from './components/key-data-container/key-data-container.component';
 import { SmedDashboardRender } from './components/dashboard/renderTrunk/smed/smedDashboardRender';
-import { ETerminDashboardRender } from './components/dashboard/renderTrunk/eTerminService/eTerminServiceRender';
 
 PlotlyModule.plotlyjs = PlotlyJS
 
@@ -81,7 +80,6 @@ const routes: Routes = [
     PlotContainerComponent,
     KeyDataContainerComponent,
     SmedDashboardRender,
-    ETerminDashboardRender
   ],
   imports: [
     CommonModule,
